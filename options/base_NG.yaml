@@ -1,0 +1,42 @@
+#### Trainer
+batch_size: 4
+batch_size_val: 4
+batch_size_test: 1
+
+log_freq: 20
+val_log_freq: 50
+save_freq: 10
+test_threshold: 1 #no use
+
+log_dir: /output/log
+
+### Dataset
+
+data_type: NG
+test_data_type: N_G
+
+root_dir: /data/booker/LNRain_v2/orig
+num_bins: 10
+
+train_scene_num: 66
+test_scene_num: 11
+
+sequence_length: 1
+test_sequence_length: 1
+
+test_h5_file: /data/booker/LNRain_v2/Redrain/voxel_h5/10/N_Gopro/test.h5
+# scene_types: ["a1","b4"]
+scene_types: ["a1", "a2", "a3", "a4", "a5", "a6", "a7", "a8", "a9", "a10", "a11"]
+
+### scheduler
+warmup_epochs: 3
+epochs: 1000
+lr_policy: "cosine"
+learning_rate: !!float 1e-4
+lr_min: !!float 1e-5
+
+
+
+
+
+

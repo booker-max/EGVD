@@ -1,0 +1,42 @@
+#### Trainer
+batch_size: 4
+batch_size_val: 4
+batch_size_test: 1
+
+log_freq: 20
+val_log_freq: 50
+save_freq: 10
+test_threshold: 1 #no use
+
+log_dir: /output/log
+
+### Dataset
+
+data_type: NAL
+test_data_type: N_AL
+
+root_dir: /data/booker/LNRain_v2/orig
+num_bins: 10
+
+train_scene_num: 109
+test_scene_num: 19
+
+sequence_length: 1
+test_sequence_length: 1
+
+test_h5_file: /data/booker/LNRain_v2/Redrain/voxel_h5/10/N_Adobe/test/light.h5
+# scene_types: ["a1","b4"]
+scene_types: ["112", "113", "114", "115", "116", "117", "118", "119", "121", "122", "123", "124", "125", "126", "127", "128", "130", "131", "133"]
+
+### scheduler
+warmup_epochs: 3
+epochs: 1000
+lr_policy: "cosine"
+learning_rate: !!float 1e-4
+lr_min: !!float 1e-5
+
+
+
+
+
+
