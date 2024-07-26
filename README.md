@@ -1,7 +1,6 @@
 ## The is official PyTorch implementation of paper ["EGVD: Event-Guided Video Deraining"](https://browse.arxiv.org/pdf/2309.17239v1.pdf)
 
 ### Enviromenent
-The entire network is implemented using PyTorch 1.6, Python 3.8, CUDA 11.3 on two NVIDIA GTX1080Ti GPUs.
 ```shell
 sh requirements.sh
 ```
