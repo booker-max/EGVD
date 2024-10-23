@@ -21,7 +21,3 @@ sh requirements.sh
 .\data\dataset_e_test.py
 .\data\dataset_ep2.py
 ```
-
-### Contact
-
-If you have any problem with the released code and dataset, please contact me by email (jin01wang@mail.ustc.edu.cn).
