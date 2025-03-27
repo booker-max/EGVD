@@ -1,4 +1,7 @@
+
 ## The is official PyTorch implementation of paper ["EGVD: Event-Guided Video Deraining"](https://browse.arxiv.org/pdf/2309.17239v1.pdf)
+
+> This paper has been accepted by IEEE Transactions on Neural Networks and Learning Systems (TNNLS).
 
 ### Enviromenent
 ```shell
@@ -6,9 +9,9 @@ sh requirements.sh
 ```
 
 ### Training stage
-   ```shell
-   bash EGVD\mainer\main_rains.sh
-   ```
+```shell
+bash EGVD\mainer\main_rains.sh
+```
 
 ### Network
 ```shell
